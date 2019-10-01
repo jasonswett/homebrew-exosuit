@@ -8,8 +8,4 @@ class Exosuit < Formula
 		libexec.install Dir["*"]
 		bin.install_symlink libexec/'bin/exo'
   end
-
-  test do
-    system bin/'exosuit', 'version'
-  end
 end

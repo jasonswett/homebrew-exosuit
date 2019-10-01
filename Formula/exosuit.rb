@@ -5,6 +5,8 @@ class Exosuit < Formula
   sha256 'abce0a624167434d12e105c3cdaf40cebf4d9a5799830abb8c7aa8aef0920673'
 
   def install
+		libexec.install Dir["*"]
+		bin.install_symlink libexec/'bin/exo'
   end
 
   test do

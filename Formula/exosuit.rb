@@ -1,8 +1,8 @@
 class Exosuit < Formula
   desc 'Exosuit'
   homepage 'https://github.com/jasonswett/exosuit'
-  url 'https://exosuit.s3.us-east-2.amazonaws.com/exosuit-0.0.2.tar.gz'
-  sha256 'e5f4a83e709bae3643fd3e99839149683a11b2864ed2431d1447d9204e773483'
+  url 'https://exosuit.s3.us-east-2.amazonaws.com/exosuit-0.0.3.tar.gz'
+  sha256 '11c3c1a4fd8e1cde21c12a619ccd0fe974fa6eff1aeb9f02e88abf906b5d4013'
 
   def install
 		libexec.install Dir["*"]
